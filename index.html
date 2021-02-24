@@ -24,13 +24,17 @@
 
     <div class="container">
         <section>
-            <h2>Meu IMC</h2>
+            <h2>Calcular IMC</h2>
             <form>
                 <label>Altura</label>
-                <input type="text" id="altura" placeholder="1.75">
+                <input type="text" id="altura" required>
+                <div class="error">Campo obrigatório</div>
+
                 <label>Peso</label>
-                <input type="text" id="peso" placeholder="89.0">
-                <a href="" class="calcular">Calcular</a>
+                <input type="text" id="peso" required>
+                <div class="error">Campo obrigatório</div>
+
+                <button class="calcular">Calcular</button>
                 <a href="" class="limpar">Limpar</a>
             </form>
         </section>

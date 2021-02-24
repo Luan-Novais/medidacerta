@@ -52,7 +52,16 @@ form input{
     border: none;
     border-bottom: 1px solid #DDD;
     border-radius: 0 5px 0 5px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+button{
+    border: none;
+    padding: 14px 14px;
+    transition: ease-in-out;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+
 }
 
 a{
@@ -62,13 +71,15 @@ a{
     border-radius: 10px 10px 10px 10px;
 }
 
+
+
 .calcular{
     background-color:  rgb(148, 218, 240);
 }
 
 .calcular:hover{
     background-color:  rgb(80, 193, 228);
-    padding: 12px 10px;
+    padding: 16px 15px;
     transition: 1s;
 
 }
@@ -95,6 +106,17 @@ input:focus{
     outline: 0;
 }   
 
+.error{
+    position: absolute;
+    padding: 2px 25px;
+    margin-top: -50px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(177, 174, 174);
+    background-color:rgb(240, 80, 80);
+    display: none;
+}
 
 thead{
     background-color: rgb(148, 218, 240);
