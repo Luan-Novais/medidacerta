@@ -11,14 +11,14 @@
     <!-- <link rel='shortcut icon' type='image/x-icon' href='./img/fivicon.png'/> -->
 
 
-    <title>Na medida certa</title>
+    <title>Medida certa</title>
 </head>
 
 <body>
 
     <head>
         <div class="header">
-            <h1>Na Medida Certa</h1>
+            <h1>Medida Certa</h1>
         </div>
     </head>
 
@@ -26,13 +26,17 @@
         <section>
             <h2>Calcular IMC</h2>
             <form>
-                <label>Altura</label>
-                <input type="text" id="altura" required>
-                <div class="error">Campo obrigatório</div>
+                <div>
+                    <label>altura</label>
+                    <input type="text" id="altura" required>
+                    <div class="error"></div>
+                </div>
 
-                <label>Peso</label>
-                <input type="text" id="peso" required>
-                <div class="error">Campo obrigatório</div>
+                <div>
+                    <label>peso</label>
+                    <input type="text" id="peso" required>
+                    <div class="error"></div>
+                </div>
 
                 <button class="calcular">Calcular</button>
                 <a href="" class="limpar">Limpar</a>
@@ -40,7 +44,7 @@
         </section>
         <section class="resultadoImc">
             <div class="calculoImc">
-                
+
             </div>
         </section>
         <section class="table">

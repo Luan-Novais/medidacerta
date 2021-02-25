@@ -38,6 +38,7 @@ section{
 
 h2{
     margin-top: 10px;
+    margin-bottom: 15px;
     width: 160px;
     font-weight: 400;
 
@@ -55,12 +56,19 @@ form input{
     margin-bottom: 50px;
 }
 
+label{
+    font-size: 14px;
+    color: rgb(130, 131, 133);
+}
+
 button{
     border: none;
     padding: 14px 14px;
     transition: ease-in-out;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
+    outline:none;
+
 
 }
 
@@ -106,7 +114,7 @@ input:focus{
     outline: 0;
 }   
 
-.error{
+.active{
     position: absolute;
     padding: 2px 25px;
     margin-top: -50px;
@@ -115,7 +123,7 @@ input:focus{
     color: white;
     box-shadow: 1px 1px 1px rgb(177, 174, 174);
     background-color:rgb(240, 80, 80);
-    display: none;
+    display: block;
 }
 
 thead{
